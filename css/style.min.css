@@ -1943,7 +1943,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 93px;
+  gap: 110px;
 }
 @media (max-width: 767.98px) {
   .develop-container {
