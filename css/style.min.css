@@ -1654,6 +1654,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   left: 20px;
   bottom: 30px;
 }
+@media (max-width: 1612px) {
+  .footer-about {
+    bottom: -30px;
+  }
+}
 
 .footer__container {
   position: relative;
@@ -1705,6 +1710,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   line-height: 128.9%;
   color: #003b62;
 }
+@media (max-width: 1612px) {
+  .footer-phone span {
+    font-size: 22px;
+  }
+}
 
 .footer-mail {
   display: flex;
@@ -1722,9 +1732,17 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 .footer-nav__item a {
   display: inline-block;
 }
+.footer-nav__item a:first-child {
+  padding-top: 2.5px;
+}
 
 .footer-right {
   flex: 0 0 45%;
+}
+@media (max-width: 1612px) {
+  .footer-right {
+    flex: 0 0 26%;
+  }
 }
 .footer-right img {
   max-width: 100%;
@@ -1748,6 +1766,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   height: 383px;
   background-color: #c9fcfc;
   z-index: -1;
+}
+@media (max-width: 1612px) {
+  .top-square {
+    width: 418px;
+  }
 }
 
 .develop {
@@ -1880,6 +1903,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   height: 50%;
   background: #c9fcfc;
   border-radius: 10px;
+}
+@media (max-width: 1612px) {
+  .about-bg {
+    height: 30%;
+  }
 }
 
 .about__left {
@@ -2121,6 +2149,12 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   color: #ffffff;
   z-index: -1;
 }
+@media (max-width: 1612px) {
+  .object-bg {
+    font-size: 60px;
+    bottom: 60px;
+  }
+}
 
 .object-title {
   margin-bottom: 44px;
@@ -2251,6 +2285,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   background: #c9fcfc;
   z-index: -1;
 }
+@media (max-width: 1612px) {
+  .form-bg {
+    top: 70%;
+  }
+}
 
 .form-container {
   display: flex;
@@ -2278,6 +2317,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   gap: 27px;
   align-items: center;
 }
+@media (max-width: 1612px) {
+  .form-box {
+    gap: 5px;
+  }
+}
 
 .form-input {
   flex: 1 1 33%;
@@ -2294,6 +2338,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   color: #ffffff;
   text-align: center;
   transition: all 0.3s ease 0s;
+}
+@media (max-width: 1612px) {
+  .form-btn button {
+    padding: 14px;
+  }
 }
 .form-btn button:hover {
   color: #ffcc00;
