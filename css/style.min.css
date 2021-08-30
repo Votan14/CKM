@@ -1583,6 +1583,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   height: 3px;
   width: 0%;
   left: 50%;
+  bottom: -5px;
   position: absolute;
   -webkit-transition: width 0.3s ease-in-out;
   -moz--transition: width 0.3s ease-in-out;
@@ -1766,6 +1767,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   height: 3px;
   width: 0%;
   left: 50%;
+  bottom: -5px;
   position: absolute;
   -webkit-transition: width 0.3s ease-in-out;
   -moz--transition: width 0.3s ease-in-out;
