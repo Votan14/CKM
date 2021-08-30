@@ -282,6 +282,9 @@ textarea:focus {
   line-height: 17px;
   color: #e5e5e5;
 }
+.input._focus {
+  color: #201a00;
+}
 textarea.input {
   resize: none;
   padding: 0px 0px;
@@ -1933,7 +1936,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 }
 
 .develop {
-  padding-top: 20px;
   padding-bottom: 60px;
 }
 
@@ -1950,7 +1952,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 }
 
 .develop-container__left {
-  flex: 0 0 30%;
+  flex: 0 0 29%;
 }
 @media (max-width: 767.98px) {
   .develop-container__left {
